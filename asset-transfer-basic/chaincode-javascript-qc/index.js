@@ -3,10 +3,10 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
 'use strict';
 
-const quoteControl = require('./lib/quoteControl');
+const assetTransfer = require('./lib/assetTransfer');
 
-module.exports.QuoteControl = quoteControl;
-module.exports.contracts = [quoteControl];
+module.exports.AssetTransfer = assetTransfer;
+module.exports.contracts = [assetTransfer];
+
